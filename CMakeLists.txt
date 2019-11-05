@@ -1,4 +1,5 @@
 cmake_minimum_required (VERSION 3.0)
-project (projectname NONE)
-SET(CMAKE_INSTALL_PREFIX "/usr")
+project (apoptosis)
+set(CMAKE_INSTALL_PREFIX "/usr")
+add_executable(apoptosis src/main.cpp src/console.cpp)
 install (PROGRAMS "bin/projectname" DESTINATION bin)
